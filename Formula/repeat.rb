@@ -1,25 +1,25 @@
 class Repeat < Formula
   desc "Spaced repetition, in your terminal"
   homepage "https://github.com/shaankhosla/repeat"
-  version "0.0.20"
+  version "0.0.21"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.20/repeat-aarch64-apple-darwin.tar.xz"
-      sha256 "119fa669943be0fc51fb5c920d72a7f1694d7c358869713d020da74ad24c62ce"
+      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.21/repeat-aarch64-apple-darwin.tar.xz"
+      sha256 "f04cee5bb290075e94b36abab387905786db19d5f971ce46a64283751c630b5f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.20/repeat-x86_64-apple-darwin.tar.xz"
-      sha256 "ecfbb6a90a38829533378a5e1d48ddae511edd5d4c057734630a126a4041e962"
+      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.21/repeat-x86_64-apple-darwin.tar.xz"
+      sha256 "a8dfeb685a50ff89180dc49999080b3b7b1d25dbf01450bdec10671338ff232e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.20/repeat-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0c18f031f4ce76669312e6759fa15c6c0fc28cb6ec406ef904f0a4fd8f385fb3"
+      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.21/repeat-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4ef7387f0c0c2d6f1b967c0e88c92f2e73d5d8dfa2dc7075f3fdf40147390bf0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.20/repeat-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "927e9e5b3d147af5389b796276a7b731eed1dc461e62c58855abf4def5b9bef6"
+      url "https://github.com/shaankhosla/repeat/releases/download/v0.0.21/repeat-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "61d16c0af1cccb245cba59be0cea2a2cb6a0919f2b1fc71e9b2225b3ca7f7643"
     end
   end
 
