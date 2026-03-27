@@ -1,25 +1,25 @@
 class Repeater < Formula
   desc "Spaced repetition, in your terminal"
   homepage "https://github.com/shaankhosla/repeater"
-  version "0.1.7"
+  version "0.1.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.7/repeater-aarch64-apple-darwin.tar.xz"
-      sha256 "5c1b984ed7ea988674a32d58066e1aa842394a8700d21ce36702cb1ad3c879d2"
+      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.8/repeater-aarch64-apple-darwin.tar.xz"
+      sha256 "d41eef85bcd8e69d3c821a34895712696d5fa21075a085f30e7624219fddbff4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.7/repeater-x86_64-apple-darwin.tar.xz"
-      sha256 "3dad886b912cc1b04520ff039f4cf463fe99cda41e132af635ea8b2c8156ffbc"
+      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.8/repeater-x86_64-apple-darwin.tar.xz"
+      sha256 "f081dc30e65889ae464ba877690196fffd0c3ad128b056815402fb2575c72cdb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.7/repeater-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "72be786c18ce028d0dbd8d7492b0f25a6ac7ef6edf28d97f7955b5f807ad3d42"
+      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.8/repeater-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "fcd1570caf6fcf393f5e204366da01760eb25059a8a0780ad6e4ce995eb3fd8a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.7/repeater-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b9baab2a282342734a3d1156697f40b4ef65574912aa8f44bf3f8fbce93bcfb8"
+      url "https://github.com/shaankhosla/repeater/releases/download/v0.1.8/repeater-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b6f25724af9ca2383f268ef4bae9637522e8be80c6e8e05e293f1f2fde86befb"
     end
   end
 
